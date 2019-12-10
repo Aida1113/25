@@ -1,0 +1,109 @@
+#header {
+  color: white;
+}
+
+#header .top-local, #header .myaccount {
+  background: #111111;
+  padding: 11px 10px;
+}
+
+#header li {
+  cursor: pointer;
+}
+
+#header .top-social {
+  background: #292929;
+}
+
+#header .top-social i {
+  padding: 15px 10px;
+}
+
+.top-middle {
+  padding: 15px 0;
+  position: relative;
+}
+
+.top-middle::after {
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: goldenrod;
+  top: 96.5%;
+  left: 20%;
+}
+
+.top-middle .menu li {
+  padding: 30px 15px;
+}
+
+.top-middle .menu li a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.top-middle .myoption {
+  padding: 30px 0;
+  color: #111111;
+}
+
+.top-middle .myoption .searh-inp {
+  position: relative;
+}
+
+.top-middle .myoption .searh-inp i {
+  position: relative;
+  right: 5px;
+  font-size: .8em;
+  top: 8px;
+}
+
+.top-middle .myoption .my-cart {
+  padding: 3px 10px;
+}
+
+.top-middle .myoption sub {
+  margin-right: 10px;
+}
+
+.btnshop {
+  background: #B6913f;
+}
+
+#suits {
+  background: url(../photo/slider1-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#newcollection .collection-item .collect-img {
+  position: relative;
+  overflow: hidden;
+}
+
+#newcollection .collection-item .collect-img:hover .img2 {
+  left: 0;
+  visibility: visible;
+}
+
+#newcollection .collection-item .collect-img .img2 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+/*# sourceMappingURL=style.css.map */
